@@ -1,0 +1,147 @@
+*{margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif
+}
+.heading{
+    color:rgb(168, 204, 250);
+    border-radius:5px;
+    font-size: 24px;
+    font-weight:700;
+    letter-spacing: 6px;
+
+}
+.card{
+    top: 0;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border:5x solid black;
+    height: 728px;
+    width:100%;
+    max-width:470vh;
+    background-image: url('images/default2.png') ;
+
+   
+}
+
+
+
+.body{
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 61px;       
+     width: 262px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px ;
+    box-sizing: content-box;
+    border:2px solid black;
+
+
+}
+.search input {
+    height: 7px;
+
+    border-radius: 20px;
+    padding:18px;
+    box-sizing: content-box;
+    cursor:pointer;
+    border:2px solid rgb(255, 255, 255);
+    background-color: black;
+    color:white;
+}
+.error{
+    display:none;
+    color: rgb(0, 0, 0);
+    font-size:18px;
+}
+.search svg{
+    padding:6px;
+    cursor:pointer;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.button{
+    background: none;
+    border:none;
+    padding-top: 3px;
+}
+.button img{
+    width:30px;
+    height:auto;
+    cursor:pointer;
+    border:2px white solid;
+
+}
+.places{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 406px;
+    width: 554px;
+
+    background-color: rgb(255, 252, 252);
+    opacity:0.5;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding:10px;
+
+ 
+
+}
+.places ul{
+        list-style-type: none;
+}
+ul>:first-child{
+    font-size:44px;
+    letter-spacing: 6px;
+    color:black;
+   padding-top: 10px;
+}
+ul>:nth-child(2){
+    font-size:74px;
+}
+
+.smallboxes{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    border:2px solid black;
+    height:191px;
+    width:509px;
+    margin:26px;
+    grid-row-gap:7px;
+    grid-column-gap:7px;
+    padding:7px;
+    background-color: rgb(168, 204, 250);
+    font-weight: 700;
+}
+
+.griditem{
+    display:flex;
+    background-color: grey;
+    justify-content:center;
+    align-items: center;
+    color:aliceblue;
+
+    
+}
+
+
+
+
+
+
+
+
