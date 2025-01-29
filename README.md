@@ -37,6 +37,10 @@
 - 🎨 **Experience Dynamic UI**: Watch the background change according to the weather.
 - 📊 **Check Weather Data**: View temperature, humidity, and wind speed at a glance.
 
+
+## Screenshots
+![animage](https://github.com/user-attachments/assets/206e6ff1-0b0a-4cf5-a651-06ef4dcda70c)
+
 ## 📌 **Future Enhancements**
 - 🌙 **Dark Mode**: Enable better usability at night.
 - ⏳ **Hourly Forecasts**: More detailed weather predictions.
